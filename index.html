@@ -3,63 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>LibertyCoin</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Welcome to LibertyCoin</h1>
-        <p>LibertyCoin is a revolutionary cryptocurrency designed to empower prisoners and their families by providing a transparent, secure, and efficient means to access legal resources, rehabilitation programs, and reintegration services. Our mission is to support the rights of prisoners and facilitate their journey towards freedom and reintegration into society.</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#tokenomics">Tokenomics</a></li>
-            <li><a href="#roadmap">Roadmap</a></li>
-            <li><a href="#community">Community Engagement</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <h2>About LibertyCoin</h2>
-        <p>LibertyCoin is a cryptocurrency designed to provide financial resources for legal aid and rehabilitation programs for prisoners.</p>
-    </section>
-
-    <section id="tokenomics">
-        <h2>Tokenomics</h2>
-        <p>Total Supply: 1,000,000,000 LBC</p>
-        <ul>
-            <li>Legal Aid Fund: 40%</li>
-            <li>Rehabilitation Programs: 30%</li>
-            <li>Team and Advisors: 15%</li>
-            <li>Community Incentives: 10%</li>
-            <li>Reserve Fund: 5%</li>
-        </ul>
-    </section>
-
-    <section id="roadmap">
-        <h2>Roadmap</h2>
-        <ol>
-            <li>Q1 2024: Concept Development</li>
-            <li>Q2 2024: Token Development</li>
-            <li>Q3 2024: ICO Launch</li>
-            <li>Q4 2024: Platform Launch</li>
-            <li>2025: Community Expansion</li>
-        </ol>
-    </section>
-
-    <section id="community">
-        <h2>Community Engagement</h2>
-        <p>Join us on social media to stay updated and participate in our community activities.</p>
-    </section>
-
-    <footer id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: info@libertycoinwebsite.com</p>
-        <p>Follow us on social media!</p>
+    <main>
+        <section id="about">
+            <h2>About LibertyCoin</h2>
+            <p>LibertyCoin is a revolutionary cryptocurrency designed to empower prisoners and their families by providing a transparent, secure, and efficient means to access legal resources, rehabilitation programs, and reintegration services. Our mission is to support the rights of prisoners and facilitate their journey towards freedom and reintegration into society.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="card">
+                <h3>Secure Transactions</h3>
+                <p>Experience fast and secure transactions with our blockchain technology.</p>
+            </div>
+            <div class="card">
+                <h3>Wallet Services</h3>
+                <p>Manage your digital assets with our user-friendly wallet services.</p>
+            </div>
+            <div class="card">
+                <h3>Investment Opportunities</h3>
+                <p>Join our investment platform to grow your wealth with LibertyCoin.</p>
+            </div>
+            <button class="button">Get Started</button>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 LibertyCoin. All rights reserved.</p>
     </footer>
 </body>
 </html>
