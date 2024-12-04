@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OurLibertyCoin (OLBC) - Polygon Chain Token</title>
+    <title>OurLibertyCoin (OLBC) - Official Polygon Token</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -34,28 +34,31 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1>Welcome to <span class="highlight">OurLibertyCoin</span></h1>
-                <p>A revolutionary token on the Polygon Network, combining speed, security, and scalability.</p>
+                <p>Official ERC-20 token on the Polygon Network</p>
                 <div class="contract-address">
-                    <h3>Official Contract Address:</h3>
+                    <h3>Verified Contract Address:</h3>
                     <div class="address-box">
-                        <code>0xce298817170f13db29a7919b7b03a1fbcd5a6795</code>
+                        <code>0x45f87973fd2837309422d044a58159a2bf7b0dfb</code>
                         <button class="copy-btn" onclick="copyAddress()">
                             <i class="fas fa-copy"></i>
                         </button>
                     </div>
+                    <div class="verification-badge">
+                        <i class="fas fa-check-circle"></i> Verified on PolygonScan
+                    </div>
                 </div>
                 <div class="cta-group">
-                    <button class="btn primary">Buy on QuickSwap</button>
-                    <button class="btn secondary">View on PolygonScan</button>
+                    <a href="https://quickswap.exchange/#/swap?outputCurrency=0x45f87973fd2837309422d044a58159a2bf7b0dfb" target="_blank" class="btn primary">Trade on QuickSwap</a>
+                    <a href="https://polygonscan.com/token/0x45f87973fd2837309422d044a58159a2bf7b0dfb" target="_blank" class="btn secondary">View on PolygonScan</a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat-item">
-                        <h3>MATIC</h3>
-                        <p>Network</p>
+                        <h3>1,000,000,000</h3>
+                        <p>Total Supply</p>
                     </div>
                     <div class="stat-item">
-                        <h3>OLBC</h3>
-                        <p>Token Symbol</p>
+                        <h3>ERC-20</h3>
+                        <p>Token Standard</p>
                     </div>
                     <div class="stat-item">
                         <h3>18</h3>
@@ -80,86 +83,61 @@
                 <div class="detail-card">
                     <h3>Token Information</h3>
                     <ul>
-                        <li><strong>Name:</strong> OurLibertyCoin</li>
-                        <li><strong>Symbol:</strong> OLBC</li>
-                        <li><strong>Network:</strong> Polygon (MATIC)</li>
-                        <li><strong>Contract:</strong> 0xce298817170f13db29a7919b7b03a1fbcd5a6795</li>
+                        <li><strong>Token Name:</strong> OurLibertyCoin</li>
+                        <li><strong>Token Symbol:</strong> OLBC</li>
+                        <li><strong>Token Standard:</strong> ERC-20</li>
+                        <li><strong>Contract:</strong> 0x45f87973fd2837309422d044a58159a2bf7b0dfb</li>
                         <li><strong>Decimals:</strong> 18</li>
+                        <li><strong>Total Supply:</strong> 1,000,000,000 OLBC</li>
+                        <li><strong>Network:</strong> Polygon (MATIC)</li>
                     </ul>
                 </div>
                 <div class="detail-card">
-                    <h3>How to Add to Metamask</h3>
+                    <h3>Add to Wallet</h3>
                     <ol>
-                        <li>Open MetaMask and ensure you're on the Polygon network</li>
+                        <li>Open MetaMask</li>
+                        <li>Switch to Polygon Network</li>
                         <li>Click "Import Token"</li>
-                        <li>Paste the contract address</li>
-                        <li>Click "Add Custom Token"</li>
+                        <li>Paste Contract Address:</li>
+                        <code>0x45f87973fd2837309422d044a58159a2bf7b0dfb</code>
                     </ol>
-                    <button class="btn add-metamask">Add to MetaMask</button>
+                    <button class="btn add-metamask" onclick="addToMetamask()">Add to MetaMask</button>
                 </div>
+            </div>
+            <div class="contract-links">
+                <a href="https://polygonscan.com/token/0x45f87973fd2837309422d044a58159a2bf7b0dfb" target="_blank" class="link-card">
+                    <i class="fas fa-search"></i>
+                    <span>View on PolygonScan</span>
+                </a>
+                <a href="https://polygonscan.com/token/0x45f87973fd2837309422d044a58159a2bf7b0dfb#code" target="_blank" class="link-card">
+                    <i class="fas fa-code"></i>
+                    <span>View Contract Code</span>
+                </a>
+                <a href="https://polygonscan.com/token/0x45f87973fd2837309422d044a58159a2bf7b0dfb#balances" target="_blank" class="link-card">
+                    <i class="fas fa-wallet"></i>
+                    <span>View Holders</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
+    <!-- Trading Section -->
+    <section id="trading" class="trading">
         <div class="section-container">
             <div class="section-header">
-                <h2>Why Choose OurLibertyCoin?</h2>
-                <p>Powered by Polygon Network</p>
+                <h2>Trading Information</h2>
+                <p>Available on Major DEXes</p>
             </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <i class="fas fa-bolt"></i>
-                    <h3>Fast Transactions</h3>
-                    <p>Leverage Polygon's high-speed network for near-instant transfers.</p>
+            <div class="trading-grid">
+                <div class="trading-card">
+                    <img src="quickswap-logo.png" alt="QuickSwap">
+                    <h3>QuickSwap</h3>
+                    <a href="https://quickswap.exchange/#/swap?outputCurrency=0x45f87973fd2837309422d044a58159a2bf7b0dfb" target="_blank" class="btn">Trade Now</a>
                 </div>
-                <div class="feature-card">
-                    <i class="fas fa-coins"></i>
-                    <h3>Low Gas Fees</h3>
-                    <p>Benefit from Polygon's minimal transaction costs.</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Secure & Verified</h3>
-                    <p>Fully audited smart contract on Polygon network.</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-exchange-alt"></i>
-                    <h3>Easy Trading</h3>
-                    <p>Available on major Polygon DEXes like QuickSwap.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- How to Buy Section -->
-    <section id="how-to-buy" class="how-to-buy">
-        <div class="section-container">
-            <div class="section-header">
-                <h2>How to Buy OLBC</h2>
-                <p>Quick guide to purchasing OurLibertyCoin</p>
-            </div>
-            <div class="steps-grid">
-                <div class="step-card">
-                    <div class="step-number">1</div>
-                    <h3>Set Up Polygon Network</h3>
-                    <p>Add Polygon network to your MetaMask wallet</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">2</div>
-                    <h3>Get MATIC</h3>
-                    <p>Purchase MATIC tokens for gas fees</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">3</div>
-                    <h3>Visit QuickSwap</h3>
-                    <p>Connect your wallet to QuickSwap DEX</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">4</div>
-                    <h3>Swap for OLBC</h3>
-                    <p>Trade MATIC for OLBC using our contract address</p>
+                <div class="trading-card">
+                    <img src="sushiswap-logo.png" alt="SushiSwap">
+                    <h3>SushiSwap</h3>
+                    <a href="https://app.sushi.com/swap?outputCurrency=0x45f87973fd2837309422d044a58159a2bf7b0dfb" target="_blank" class="btn">Trade Now</a>
                 </div>
             </div>
         </div>
@@ -171,24 +149,27 @@
             <div class="footer-grid">
                 <div class="footer-section">
                     <h3>OurLibertyCoin (OLBC)</h3>
-                    <p>Building the future of finance on Polygon Network.</p>
+                    <p>ERC-20 Token on Polygon Network</p>
+                    <div class="contract-info">
+                        <small>Contract Address:</small>
+                        <code>0x45f87973fd2837309422d044a58159a2bf7b0dfb</code>
+                    </div>
                 </div>
                 <div class="footer-section">
-                    <h3>Quick Links</h3>
+                    <h3>Resources</h3>
                     <ul>
-                        <li><a href="https://polygonscan.com/token/0xce298817170f13db29a7919b7b03a1fbcd5a6795">PolygonScan</a></li>
-                        <li><a href="#contract">Contract</a></li>
-                        <li><a href="#how-to-buy">How to Buy</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://polygonscan.com/token/0x45f87973fd2837309422d044a58159a2bf7b0dfb">PolygonScan</a></li>
+                        <li><a href="https://polygonscan.com/token/0x45f87973fd2837309422d044a58159a2bf7b0dfb#code">Contract Code</a></li>
+                        <li><a href="https://quickswap.exchange/#/swap?outputCurrency=0x45f87973fd2837309422d044a58159a2bf7b0dfb">Trade on QuickSwap</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Community</h3>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-telegram"></i></a>
-                        <a href="#"><i class="fab fa-discord"></i></a>
-                        <a href="#"><i class="fab fa-medium"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
                     </div>
                 </div>
             </div>
@@ -200,8 +181,31 @@
 
     <script>
         function copyAddress() {
-            navigator.clipboard.writeText('0xce298817170f13db29a7919b7b03a1fbcd5a6795');
+            navigator.clipboard.writeText('0x45f87973fd2837309422d044a58159a2bf7b0dfb');
             alert('Contract address copied to clipboard!');
+        }
+
+        async function addToMetamask() {
+            try {
+                const wasAdded = await ethereum.request({
+                    method: 'wallet_watchAsset',
+                    params: {
+                        type: 'ERC20',
+                        options: {
+                            address: '0x45f87973fd2837309422d044a58159a2bf7b0dfb',
+                            symbol: 'OLBC',
+                            decimals: 18,
+                            image: 'YOUR_TOKEN_IMAGE_URL'
+                        },
+                    },
+                });
+                if (wasAdded) {
+                    alert('Token successfully added to MetaMask!');
+                }
+            } catch (error) {
+                console.log(error);
+                alert('Error adding token to MetaMask');
+            }
         }
     </script>
 </body>
