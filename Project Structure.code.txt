@@ -1,0 +1,29 @@
+libertycoin-website/
+├── assets/
+│   ├── images/
+│   │   ├── logo.svg
+│   │   ├── hero-bg.png
+│   │   ├── features/
+│   │   │   ├── feature-1.svg
+│   │   │   ├── feature-2.svg
+│   │   │   └── feature-3.svg
+│   │   └── icons/
+│   └── fonts/
+├── css/
+│   ├── styles.css
+│   ├── components/
+│   │   ├── navbar.css
+│   │   ├── buttons.css
+│   │   ├── cards.css
+│   │   └── animations.css
+│   └── utils/
+│       ├── variables.css
+│       └── responsive.css
+├── js/
+│   ├── main.js
+│   └── modules/
+│       ├── animations.js
+│       ├── navbar.js
+│       ├── stats.js
+│       └── utils.js
+└── index.html
