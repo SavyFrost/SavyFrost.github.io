@@ -1,1 +1,1 @@
-# SavyFrost.github.io
+# The criminal justice system often leaves prisoners and their families without adequate resources for legal representation and rehabilitation. LibertyCoin aims to bridge this gap by creating a dedicated financial ecosystem that enables individuals to contribute to legal funds, rehabilitation programs, and community support initiatives.
