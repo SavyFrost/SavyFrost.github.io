@@ -1,122 +1,208 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>LibertyCoin - Freedom in Digital Currency</title>
-      <link rel="stylesheet" href="styles.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  </head>
-  <body>
-      <nav class="navbar">
-          <div class="logo">
-              <i class="fas fa-coins"></i>
-              <span>LibertyCoin</span>
-          </div>
-          <ul class="nav-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#wallet">Wallet</a></li>
-              <li><a href="#contact">Contact</a></li>
-          </ul>
-      </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurLibertyCoin (OLBC) - Polygon Chain Token</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-polygon"></i>
+                <span>OurLibertyCoin</span>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contract">Contract</a></li>
+                <li><a href="#wallet">Wallet</a></li>
+                <li><a href="#contact" class="nav-cta">Buy OLBC</a></li>
+            </ul>
+        </div>
+    </nav>
 
-      <header id="home" class="hero">
-          <div class="hero-content">
-              <h1>Welcome to LibertyCoin</h1>
-              <p>The Future of Financial Freedom</p>
-              <div class="cta-buttons">
-                  <button class="btn primary">Get Started</button>
-                  <button class="btn secondary">Learn More</button>
-              </div>
-          </div>
-          <div class="coin-animation">
-              <div class="coin">
-                  <i class="fas fa-coins"></i>
-              </div>
-          </div>
-      </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Welcome to <span class="highlight">OurLibertyCoin</span></h1>
+                <p>A revolutionary token on the Polygon Network, combining speed, security, and scalability.</p>
+                <div class="contract-address">
+                    <h3>Official Contract Address:</h3>
+                    <div class="address-box">
+                        <code>0xce298817170f13db29a7919b7b03a1fbcd5a6795</code>
+                        <button class="copy-btn" onclick="copyAddress()">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="cta-group">
+                    <button class="btn primary">Buy on QuickSwap</button>
+                    <button class="btn secondary">View on PolygonScan</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>MATIC</h3>
+                        <p>Network</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>OLBC</h3>
+                        <p>Token Symbol</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>18</h3>
+                        <p>Decimals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="token-visual"></div>
+            </div>
+        </div>
+    </section>
 
-      <section id="about" class="about-section">
-          <h2>About LibertyCoin</h2>
-          <div class="features-grid">
-              <div class="feature-card">
-                  <i class="fas fa-lock"></i>
-                  <h3>Secure</h3>
-                  <p>Advanced encryption and blockchain technology</p>
-              </div>
-              <div class="feature-card">
-                  <i class="fas fa-bolt"></i>
-                  <h3>Fast</h3>
-                  <p>Lightning-quick transactions worldwide</p>
-              </div>
-              <div class="feature-card">
-                  <i class="fas fa-dollar-sign"></i>
-                  <h3>Low Fees</h3>
-                  <p>Minimal transaction costs</p>
-              </div>
-              <div class="feature-card">
-                  <i class="fas fa-globe"></i>
-                  <h3>Global</h3>
-                  <p>Accessible anywhere in the world</p>
-              </div>
-          </div>
-      </section>
+    <!-- Contract Section -->
+    <section id="contract" class="contract">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Smart Contract Details</h2>
+                <p>Verified on Polygon Network</p>
+            </div>
+            <div class="contract-details">
+                <div class="detail-card">
+                    <h3>Token Information</h3>
+                    <ul>
+                        <li><strong>Name:</strong> OurLibertyCoin</li>
+                        <li><strong>Symbol:</strong> OLBC</li>
+                        <li><strong>Network:</strong> Polygon (MATIC)</li>
+                        <li><strong>Contract:</strong> 0xce298817170f13db29a7919b7b03a1fbcd5a6795</li>
+                        <li><strong>Decimals:</strong> 18</li>
+                    </ul>
+                </div>
+                <div class="detail-card">
+                    <h3>How to Add to Metamask</h3>
+                    <ol>
+                        <li>Open MetaMask and ensure you're on the Polygon network</li>
+                        <li>Click "Import Token"</li>
+                        <li>Paste the contract address</li>
+                        <li>Click "Add Custom Token"</li>
+                    </ol>
+                    <button class="btn add-metamask">Add to MetaMask</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <section id="features" class="price-section">
-          <h2>Live Price</h2>
-          <div class="price-container">
-              <div class="price-card">
-                  <h3>LibertyCoin Price</h3>
-                  <div class="price-value">
-                      <span class="currency">$</span>
-                      <span class="amount">1,234.56</span>
-                  </div>
-                  <div class="price-change positive">
-                      <i class="fas fa-arrow-up"></i>
-                      <span>+5.67%</span>
-                  </div>
-              </div>
-          </div>
-      </section>
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Why Choose OurLibertyCoin?</h2>
+                <p>Powered by Polygon Network</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Transactions</h3>
+                    <p>Leverage Polygon's high-speed network for near-instant transfers.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>Low Gas Fees</h3>
+                    <p>Benefit from Polygon's minimal transaction costs.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure & Verified</h3>
+                    <p>Fully audited smart contract on Polygon network.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Easy Trading</h3>
+                    <p>Available on major Polygon DEXes like QuickSwap.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <section id="wallet" class="wallet-section">
-          <h2>Get Your Wallet</h2>
-          <div class="wallet-options">
-              <div class="wallet-card">
-                  <i class="fas fa-desktop"></i>
-                  <h3>Desktop Wallet</h3>
-                  <button class="btn">Download</button>
-              </div>
-              <div class="wallet-card">
-                  <i class="fas fa-mobile-alt"></i>
-                  <h3>Mobile Wallet</h3>
-                  <button class="btn">Download</button>
-              </div>
-          </div>
-      </section>
+    <!-- How to Buy Section -->
+    <section id="how-to-buy" class="how-to-buy">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>How to Buy OLBC</h2>
+                <p>Quick guide to purchasing OurLibertyCoin</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Set Up Polygon Network</h3>
+                    <p>Add Polygon network to your MetaMask wallet</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Get MATIC</h3>
+                    <p>Purchase MATIC tokens for gas fees</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Visit QuickSwap</h3>
+                    <p>Connect your wallet to QuickSwap DEX</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Swap for OLBC</h3>
+                    <p>Trade MATIC for OLBC using our contract address</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <footer id="contact">
-          <div class="footer-content">
-              <div class="footer-section">
-                  <h3>Contact Us</h3>
-                  <p>Email: info@libertycoin.com</p>
-                  <p>Support: support@libertycoin.com</p>
-              </div>
-              <div class="footer-section">
-                  <h3>Follow Us</h3>
-                  <div class="social-links">
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href="#"><i class="fab fa-telegram"></i></a>
-                      <a href="#"><i class="fab fa-discord"></i></a>
-                      <a href="#"><i class="fab fa-github"></i></a>
-                  </div>
-              </div>
-          </div>
-          <div class="footer-bottom">
-              <p>&copy; 2024 LibertyCoin. All rights reserved.</p>
-          </div>
-      </footer>
-  </body>
-  </html>
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>OurLibertyCoin (OLBC)</h3>
+                    <p>Building the future of finance on Polygon Network.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="https://polygonscan.com/token/0xce298817170f13db29a7919b7b03a1fbcd5a6795">PolygonScan</a></li>
+                        <li><a href="#contract">Contract</a></li>
+                        <li><a href="#how-to-buy">How to Buy</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Community</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 OurLibertyCoin (OLBC). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function copyAddress() {
+            navigator.clipboard.writeText('0xce298817170f13db29a7919b7b03a1fbcd5a6795');
+            alert('Contract address copied to clipboard!');
+        }
+    </script>
+</body>
+</html>
