@@ -1,72 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LibertyCoin</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to LibertyCoin</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About LibertyCoin</h2>
-            <p>LibertyCoin is a revolutionary cryptocurrency designed to empower prisoners and their families by providing a transparent, secure, and efficient means to access legal resources, rehabilitation programs, and reintegration services. Our mission is to support the rights of prisoners and facilitate their journey towards freedom and reintegration into society.</p>
-        </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <div class="card">
-                <h3>Secure Transactions</h3>
-                <p>Experience fast and secure transactions with our cutting-edge blockchain technology.</p>
-            </div>
-            <div class="card">
-                <h3>Wallet Services</h3>
-                <p>Manage your digital assets effortlessly with our user-friendly wallet services.</p>
-            </div>
-            <div class="card">
-                <h3>Investment Opportunities</h3>
-                <p>Join our investment platform to grow your wealth with LibertyCoin and take advantage of market trends.</p>
-            </div>
-            <button class="button">Get Started</button>
-        </section>
-        <section id="testimonials">
-            <h2>What Our Users Say</h2>
-            <div class="testimonial">
-                <p>"LibertyCoin has transformed the way I handle my finances. The service is top-notch!" - Jane D.</p>
-            </div>
-            <div class="testimonial">
-                <p>"I love the user-friendly interface and the security features. Highly recommend!" - John S.</p>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or feedback, feel free to reach out!</p>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea><br>
-                <button type="submit" class="button">Send Message</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 LibertyCoin. All rights reserved.</p>
-        <div class="social-links">
-            <a href="https://twitter.com/libertycoin" target="_blank">Twitter</a>
-            <a href="https://facebook.com/libertycoin" target="_blank">Facebook</a>
-            <a href="https://linkedin.com/company/libertycoin" target="_blank">LinkedIn</a>
-        </div>
-    </footer>
-</body>
-</html>
+id: libertycoin_html
+name: LibertyCoin Index Page
+type: html
+content: |-
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>LibertyCoin - Freedom in Digital Currency</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+      <nav class="navbar">
+          <div class="logo">
+              <i class="fas fa-coins"></i>
+              <span>LibertyCoin</span>
+          </div>
+          <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#wallet">Wallet</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+
+      <header id="home" class="hero">
+          <div class="hero-content">
+              <h1>Welcome to LibertyCoin</h1>
+              <p>The Future of Financial Freedom</p>
+              <div class="cta-buttons">
+                  <button class="btn primary">Get Started</button>
+                  <button class="btn secondary">Learn More</button>
+              </div>
+          </div>
+          <div class="coin-animation">
+              <div class="coin">
+                  <i class="fas fa-coins"></i>
+              </div>
+          </div>
+      </header>
+
+      <section id="about" class="about-section">
+          <h2>About LibertyCoin</h2>
+          <div class="features-grid">
+              <div class="feature-card">
+                  <i class="fas fa-lock"></i>
+                  <h3>Secure</h3>
+                  <p>Advanced encryption and blockchain technology</p>
+              </div>
+              <div class="feature-card">
+                  <i class="fas fa-bolt"></i>
+                  <h3>Fast</h3>
+                  <p>Lightning-quick transactions worldwide</p>
+              </div>
+              <div class="feature-card">
+                  <i class="fas fa-dollar-sign"></i>
+                  <h3>Low Fees</h3>
+                  <p>Minimal transaction costs</p>
+              </div>
+              <div class="feature-card">
+                  <i class="fas fa-globe"></i>
+                  <h3>Global</h3>
+                  <p>Accessible anywhere in the world</p>
+              </div>
+          </div>
+      </section>
+
+      <section id="features" class="price-section">
+          <h2>Live Price</h2>
+          <div class="price-container">
+              <div class="price-card">
+                  <h3>LibertyCoin Price</h3>
+                  <div class="price-value">
+                      <span class="currency">$</span>
+                      <span class="amount">1,234.56</span>
+                  </div>
+                  <div class="price-change positive">
+                      <i class="fas fa-arrow-up"></i>
+                      <span>+5.67%</span>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="wallet" class="wallet-section">
+          <h2>Get Your Wallet</h2>
+          <div class="wallet-options">
+              <div class="wallet-card">
+                  <i class="fas fa-desktop"></i>
+                  <h3>Desktop Wallet</h3>
+                  <button class="btn">Download</button>
+              </div>
+              <div class="wallet-card">
+                  <i class="fas fa-mobile-alt"></i>
+                  <h3>Mobile Wallet</h3>
+                  <button class="btn">Download</button>
+              </div>
+          </div>
+      </section>
+
+      <footer id="contact">
+          <div class="footer-content">
+              <div class="footer-section">
+                  <h3>Contact Us</h3>
+                  <p>Email: info@libertycoin.com</p>
+                  <p>Support: support@libertycoin.com</p>
+              </div>
+              <div class="footer-section">
+                  <h3>Follow Us</h3>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-telegram"></i></a>
+                      <a href="#"><i class="fab fa-discord"></i></a>
+                      <a href="#"><i class="fab fa-github"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2024 LibertyCoin. All rights reserved.</p>
+          </div>
+      </footer>
+  </body>
+  </html>
