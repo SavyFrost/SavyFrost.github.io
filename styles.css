@@ -27,7 +27,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -44,7 +44,7 @@ main {
 
 /* Section styles */
 section {
-    background: white;
+    background: Black;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
